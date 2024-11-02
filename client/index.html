@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professor Review DApp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Professor Review System</h1>
+
+        <div class="student-info">
+            <h2>Student: John Doe</h2>
+            <h3>Course: Blockchain 101</h3>
+        </div>
+
+        <form id="reviewForm">
+            <div>
+                <label for="rating1">Rate Course Content (1-5):</label>
+                <input type="number" id="rating1" min="1" max="5" value="3">
+            </div>
+
+            <div>
+                <label for="rating2">Rate Instructor (1-5):</label>
+                <input type="number" id="rating2" min="1" max="5" value="3">
+            </div>
+
+            <div>
+                <label for="feedback">Feedback:</label>
+                <textarea id="feedback"></textarea>
+            </div>
+
+            <button type="submit">Submit Review</button>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

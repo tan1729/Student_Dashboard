@@ -1,0 +1,14 @@
+{
+  "name": "professor-review-dapp",
+  "version": "0.1.0",
+  "description": "Professor Review DApp",
+  "main": "index.js",
+  "scripts": {
+    "build": "graph build",
+    "codegen": "graph codegen"
+  },
+  "dependencies": {
+    "@graphprotocol/graph-ts": "^0.24.0",
+    "pinata-web3": "^0.5.1"
+  }
+}
